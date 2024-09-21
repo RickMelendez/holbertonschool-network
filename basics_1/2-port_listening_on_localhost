@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if ! command -v nc &> /dev/null
+then
+    echo "netcat (nc) is required but it's not installed. Install it using 'sudo apt install netcat'"
+    exit 1
+fi
+
+echo "Listening on port 98..."
+nc -l 127.0.0.1 98
