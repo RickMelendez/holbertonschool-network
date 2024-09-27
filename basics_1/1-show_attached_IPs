@@ -1,5 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Use the `hostname` command with `-I` option to get the IPs
-# and filter out only IPv4 addresses using `grep`
+# Retrieve and display all active IPv4 addresses
 hostname -I | tr ' ' '\n' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$'
