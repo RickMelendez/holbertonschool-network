@@ -18,4 +18,3 @@ echo "8.8.8.8 facebook.com" >> /etc/hosts
 echo "IP changes applied:"
 grep "localhost" /etc/hosts
 grep "facebook.com" /etc/hosts
-1
