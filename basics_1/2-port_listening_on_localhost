@@ -4,3 +4,4 @@
 # Use netcat to listen on port 98
 # The output is displayed when data is received
 nc -l -p 98
+1
